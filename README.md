@@ -9,5 +9,3 @@ This project built using these technologies:
 - Workbox
 - Netlify
 - WebStorm
-
-
