@@ -3,8 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaTwitterSquare, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
-  // let date = new Date();
-  // let year = date.getFullYear();
+
 
   return (
     <div className={s.footer}>
@@ -13,9 +12,6 @@ const Footer = () => {
           <h3>By Kerlin Lopes</h3>
         </div>
 
-        {/* <div className={s.copyright}>
-          <h3>Copyright © {year} </h3>
-        </div> */}
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
