@@ -7,7 +7,7 @@ const Logo = ({ className }) => {
   return (
     <div className={className}>
       <Link to={routes.HOME} >
-        PORTFOLIO 
+      PORTFOLIO 
       </Link>
 
     </div>
