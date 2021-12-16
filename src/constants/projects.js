@@ -1,124 +1,95 @@
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'Trivia Game',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'A SCREAM themed trivia game containing 20 questions',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://imgur.com/gallery/FwiCx6s',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: 'https://seir-penguin-project-1-theta.vercel.app/',
+      repo: 'https://github.com/kerlinlopes/seir_penguin_project_1',
     },
     technologies: [
-      '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#HTML',
+      '#CSS',
+      '#javascript',
+      '#jQuery',
+      '#vercel',
     ],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Journals App',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'Building a Mongo-Express-Liquid-Node (MELN) Application. The tools used are HTML, CSS, Javascript, Dotenv, Express, Liquid-Express-Views, Method-Override, Mongoose, and Morgan!',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: 'https://imgur.com/gallery/FTY9NaW',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://kl-penguin-p2.herokuapp.com/',
+      repo: 'https://github.com/kerlinlopes/seir_penguin_project_2',
     },
     technologies: [
-      '#react',
+      '#node',
       '#nodejs',
       '#express',
       '#mongodb',
-      '#react-query',
-      '#react-transition-group',
+      '#liquidjs',
+      '#javascript',
       '#mongoose',
-      '#jwt',
-      '#aws',
+      '#CSS',
     ],
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'Grocery List App',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'A group project that created a full CRUD app built with react and css. Lets a user add grocery items and or edit, update and delete them.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://imgur.com/gallery/JK8CSif',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: 'https://xenodochial-euclid-2ab811.netlify.app/products',
+      repo: 'https://github.com/gadgetgeek/kweb_frontend',
     },
     technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
+      '#HTML5',
+      '#javascript',
+      '#scss',
+      '#css',
+      '#reactjs',
+      '#netlify',
       '#mongodb',
     ],
   },
   {
     id: '4',
-    title: 'Places Mobile App',
+    title: 'Plants Scrapbook ',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'A Plants Scrapbook that allows a user to add a plant and or edit, update and delete. Also allows the user to see a zodiac page and see what flower their astrological sign is assigned to and a guide page with a carousel to learn how to care for your plants.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
+      src: 'https://imgur.com/gallery/JVVT2MZ',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: 'https://plants-scrapbook-frontend-k59j9j2tz-kerlinlopes.vercel.app/',
+      repo: 'https://github.com/kerlinlopes/plants-scrapbook-frontend',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
-    ],
-  },
-  {
-    id: '5',
-    title: 'Shopping Cart',
-    description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
-    },
-    technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+      '#javascript',
+      '#HTML',
+      '#CSS',
+      '#vercel',
+      '#Python',
     ],
   },
 ];

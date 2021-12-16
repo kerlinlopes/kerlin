@@ -88,16 +88,16 @@ fieldset{
 }
 
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #fdb8ff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #f700ff;
   border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: hsl(298, 62%, 47%);
   border-radius: 12px;
 }
 
