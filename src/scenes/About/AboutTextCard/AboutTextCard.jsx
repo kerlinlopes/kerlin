@@ -4,10 +4,6 @@ const AboutTextCard = () => {
   return (
     <div className={s.card}>
       <p style={{ textAlign: 'justify' }}>
-        Hi Everyone, I am{' '}
-        <span className={s.pink}>Kerlin Lopes </span>
-        from <span className={s.pink}> Atlanta, Georgia.</span>
-        <br />
 
         <span className={s.pink}>
           The year 2010 I remember my dad coming home with a DELL
@@ -18,7 +14,7 @@ const AboutTextCard = () => {
         never got to finsish because I dropped out of high school to
         help my dad take care of my 2 little sisters. 👨‍👧‍👧
         <br /> <br />
-        Eventually, I went back to school and graduated but never finished my computer science course. I then went to college to pursure a computer science degree and had to withdraw because my boyfriend of 2 years passed away. It was a difficult time in my life and I gave myself a full year to recover. {' '} 
+        Eventually, I went back to school and graduated but never finished my computer science course. I then went to college to pursue a computer science degree and sadly I had to withdraw due to my boyfriend of 2 years passing away. It was a difficult time in my life and I gave myself a full year to recover. {' '} 
         <span className={s.pink}>
         I promised myself I would go back to school in Fall 2021. 👩🏻‍💻{' '}
         </span>
