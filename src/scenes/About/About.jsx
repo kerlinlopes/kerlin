@@ -1,6 +1,6 @@
 import s from './About.module.scss';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
-import AboutTextCard from './AbouTextCard/AboutTextCard';
+import AboutTextCard from './AboutTextCard/AboutTextCard';
 import TechSkills from './TechSkills/TechSkills';
 
 const About = () => {
