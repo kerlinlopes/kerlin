@@ -17,7 +17,7 @@ const Footer = () => {
           <ul className={s.socialIcons}>
             <li>
               <a
-                href="https://github.com/kerlinlopes"
+                href="https://github.com/kerlinlopes/kerlinlopes/blob/main/README.md"
                 target="_blank"
                 rel="noreferrer"
               >
