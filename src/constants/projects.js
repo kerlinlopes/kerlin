@@ -92,4 +92,29 @@ export const PROJECTS = [
       '#Python',
     ],
   },
+  {
+    id: '5',
+    title: 'Secret Website',
+    description:
+      'An employee tracking secret app for a ceo. CRUD application',
+    image: {
+      src: 'https://i.imgur.com/51FDLOj.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://company-employees.vercel.app/',
+      repo: 'https://github.com/kerlinlopes/company-employees',
+    },
+    technologies: [
+      '#HTML5',
+      '#javascript',
+      '#scss',
+      '#css',
+      '#react',
+      '#vercel',
+      '#mongodb',
+      '#NextJS',
+    ],
+  },
 ];
