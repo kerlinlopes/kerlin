@@ -1,8 +1,10 @@
 import s from './TechSkills.module.scss';
 import {
   DiJavascript1,
+  DiJqueryLogo,
   DiNodejs,
   DiReact,
+  DiCss3,
   DiSass,
   DiMongodb,
   DiGit,
@@ -12,20 +14,29 @@ import {
   SiHtml5,
   SiPython,
   SiPostgresql,
-  SiTypescript
+  SiTypescript,
+  SiContentful,
+  SiNetlify,
+  SiVercel
 } from 'react-icons/si';
 
 const TechSkills = () => {
   return (
     <ul className={s.container}>
       <li className={s.techIcon}>
-        <DiJavascript1 />
+        <DiJavascript1 /> 
+      </li>
+      <li className={s.techIcon}>
+        <DiJqueryLogo /> 
       </li>
       <li className={s.techIcon}>
         <DiNodejs />
       </li>
       <li className={s.techIcon}>
-        <DiReact />
+        <DiReact /> 
+      </li>
+      <li className={s.techIcon}>
+        <DiCss3 /> 
       </li>
       <li className={s.techIcon}>
         <DiSass />
@@ -49,7 +60,16 @@ const TechSkills = () => {
         <SiPython />
       </li>
       <li className={s.techIcon}>
-        <SiTypescript />
+        <SiTypescript /> 
+      </li>
+      <li className={s.techIcon}>
+        <SiContentful />
+      </li>
+      <li className={s.techIcon}>
+        <SiNetlify />
+      </li>
+      <li className={s.techIcon}>
+        <SiVercel />
       </li>
 
     </ul>
