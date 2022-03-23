@@ -117,4 +117,30 @@ export const PROJECTS = [
       '#NextJS',
     ],
   },
+
+  {
+    id: '6',
+    title: 'Memories App',
+    description:
+      'A social media app where users can post any events happening in their lives',
+    image: {
+      src: '',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://memories-app-kl.netlify.app/',
+      repo: ' ',
+    },
+    technologies: [
+      '#HTML5',
+      '#javascript',
+      '#css',
+      '#react',
+      '#netlify',
+      '#mongodb',
+      '#express',
+    ],
+  },
+
 ];
