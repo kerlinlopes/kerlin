@@ -130,7 +130,7 @@ export const PROJECTS = [
     },
     links: {
       site: 'https://memories-app-kl.netlify.app/',
-      repo: ' ',
+      repo: 'https://github.com/kerlinlopes/memories-project-kl',
     },
     technologies: [
       '#HTML5',
