@@ -96,7 +96,7 @@ export const PROJECTS = [
     id: '5',
     title: 'Secret Website',
     description:
-      'An employee tracking secret app for a ceo. Has 3 pages that are an employee page, an about page and a TOP INFO page. The employee pahe is where I am tracking my eployees information. The about page has my employees pictures and my companies values. The TOP INFO page has my sticky notes one thoughts that I have about my employees. My employees do not know I have this.. it is my secret website... mwahahaha',
+      'An employee tracking secret app for a ceo. Has 3 pages that are an employee page, an about page and a TOP INFO page. The employee page is where I am tracking my employees information. The about page has my employees pictures and my companies values. The TOP INFO page has my notes and thoughts that I have, about my employees. My employees do not know I have this.. it is my secret website... mwahahaha',
     image: {
       src: 'https://i.imgur.com/51FDLOj.png',
       placeholderSrc:
@@ -122,7 +122,7 @@ export const PROJECTS = [
     id: '6',
     title: 'Memories App',
     description:
-      'A social media app where users can post any events happening in their lives. It includes a form where you can add the creator, a title, a message, hashtags and include a photo as well! User is able to create a post, update it, read it and or delete it. ',
+      'A social media app where users can post any events happening in their lives. It includes a form where you can add the creator of the post, a title, a message, hashtags and include a photo as well! User is able to create a post, update it, read it and or delete it. ',
     image: {
       src: '',
       placeholderSrc:
