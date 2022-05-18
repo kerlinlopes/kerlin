@@ -8,7 +8,7 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME<span className={s.pink}> INTRODUCE </span> MYSELF
+            LET ME<span className={s.name}> INTRODUCE </span> MYSELF
           </h1>
 
           <div className={s.description}>
@@ -20,7 +20,7 @@ const IntroSection = () => {
             <p>
               I like to create
               <i>
-                <b className={s.pink}>
+                <b className={s.bold}>
                   {' '}
                   Web Technologies and Applications{' '}
                 </b>
@@ -31,13 +31,13 @@ const IntroSection = () => {
             <p>
               I have experience in building{' '}
               <i>
-                <b className={s.pink}>Web and Mobile</b>
+                <b className={s.bold}>Web and Mobile</b>
               </i>{' '}
               with
               <br />
               <i>
-                <b className={s.pink}>
-                  JavaScript, React, Nodejs, Python-Masonite
+                <b className={s.bold}>
+                  HTML, CSS, JavaScript, React, Nodejs,
                 </b>
               </i>{' '}
               and some other cool libraries

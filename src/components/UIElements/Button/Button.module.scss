@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 400;
-  color: #ffb4f9;
+  color: red;
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -14,20 +14,19 @@
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
-  svg {
-    vertical-align: middle;
-  }
+  // svg {
+  //   vertical-align: middle;
+  // }
 
   &.primary {
     color: var(--btn-primary-txt);
-    //background-color: #623686;
-    background-color: #ff00ea;
+    background-color: #a1ce3f;
     
     border-color: #ffffff;
     &:hover {
       color: var(--btn-primary-txt);
-      background-color: #ffb4f9;
-      border-color: #ff00ea;
+      background-color: #014760;
+      border-color: #cbe58e;
     }
   }
 }

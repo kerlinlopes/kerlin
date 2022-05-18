@@ -21,7 +21,7 @@ const AboutTextCard = () => {
         <br /> <br />
         In the year of me trying to recover I had a lot of opportunies come into my life. I ended up applying at Per Scholas to get into their software engineering program but then I deployed to Morocco 🇲🇦 for an exercise with the National Guard. I dont regret going because it was a blessing, experiencing another culture. It made me realize how much freedom I take for granted in the United States. After I came back home I applied to this Full Stack Developer apprenticeship and wasn't chosen. I remember being very discouraged but I had to keep my promise. I had to go to school Fall 2021. 💻
         <br /> <br />
-        With a lot of praying and asking for guidance I found General Assembly! 🙏🏻 I went through the whole process and boom I got into the Software Engineering Immersive Program. Ever since then I've been coding 45-50 hours a week! I love it so much. It's amazing that I would cry the first 2 weeks of school because it was so much knowledge to me and now I'm able to teach myself a new language or understand code. I love this industry, there is help everywhere and I feel at home. I'm proud to say that things happen for a reason and I am now part of the Tech Industry.
+        With a lot of praying and asking for guidance I found General Assembly! 🙏🏻 I went through the whole process and boom I got into the Software Engineering Immersive Program. Ever since then I've been coding 60-80 hours a week! I love it so much. It's shocking that I would cry the first 2 weeks of school due to how much knowledge I was learning at a a fast pace. Fast forward a few ,months later I am now able to teach myself a new language or understand code. I love this industry, there is help everywhere and I feel at home. I'm proud to say that things happen for a reason and I am now part of the Tech Industry.
         <br /> <br />
         Now you know something about me and if you made it this far thank you... In conclusion, I consider myself a passionate Full Stack Software Developer 🚀 
       </p>
@@ -29,7 +29,7 @@ const AboutTextCard = () => {
 
       <p
         style={{
-          color: '#ff009d',
+          color: '#107e57',
           textAlign: 'center',
           marginTop: '1rem',
         }}

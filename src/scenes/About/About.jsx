@@ -10,7 +10,7 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-              How I got  <b className={s.pink}>HERE</b>
+              How I got  <b className={s.here}>HERE</b>
             </h1>
             <AboutTextCard />
           </div>

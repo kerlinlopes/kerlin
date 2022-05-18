@@ -1,58 +1,65 @@
 .light {
-  --txt: #000;
-  --txt-secondary: #f07ae6;
-  --txt-sec-darcker: #fda2f6;
+  --txt: #014760;
+  --txt-secondary: #cbe58e;
+  //
+  --txt-sec-darcker: red;
+  //
   --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
   --bg-home-section-main: none;
   --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
-  --bg-primary: #fafafa;
-  --bg: #ff00ea;
-  --bg-active: #ff00ea;
+  --bg-primary: #ffffff;
+  //
+  --bg: red;
+  --bg-active: red;
   --bg-header: transparent;
   --bg-footer: transparent;
-  --backdrop: #f1eeee;
-  --nav-active: #ff71f3;
-  --border-primary: #ff00ea;
-  --logo-primary: #ffb4f9;
-  --social-icon: #ff94f6;
-  --social-shadow: #ff71f3;
+  --backdrop: #ffffff;
+  --nav-active: #a1ce3f;
+  --border-primary: red;
+  //
+  --logo-primary: yellow;
+  --social-icon: #107e57;
+  --social-shadow: #cbe58e;
   --preloader: #fafafa;
   --bg-modal: #fafafa;
   --modal-border: none;
-  --modal-close: #f860eb;
+  --modal-close: #a1ce3f;
   --modal-close-icon: #fff;
   --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
   --btn-primary-txt: #fff;
   --tags-txt: #fff;
-  --toggle-theme: #ff00ea;
+  --toggle-theme: #a1ce3f
+  ;
 }
 
 .dark {
-  --txt: #fff;
-  --txt-secondary: #ff00ea;
-  --txt-sec-darcker: #ff00ea;
+  --txt: #9aeadd;
+  --txt-secondary: #32CD30;
   --bg-layout-home: linear-gradient(to left, RGB(27 20 41), RGB(20 15 35));
   --bg-layout-base: #100D19;
   --bg-primary: #000000;
-  --bg: #ff009d;
-  --bg-active: #ff009d;
+  //
+  --bg: yellow;
+  --bg-active: red;
   --bg-header: rgba(0, 0, 0, 0.84);
   --bg-footer: #000000;
   --backdrop: rgba(0, 0, 0, 0.75);
-  --nav-active: #c95bf5;
-  --border-primary: #ff009d;
-  --logo-primary: #ce5ff8;
-  --social-icon: #f07ae6;
-  --social-shadow: #ff00ea;
-  --preloader: #0c0513;
-  --bg-modal: #100D19;
+  --nav-active: #9aeadd;
+  //
+  --border-primary: red;
+  --logo-primary: red;
+  //
+  --social-icon: #5CD85A;
+  --social-shadow: #9aeadd;
+  --preloader: black;
+  --bg-modal: black;
   --modal-border: 1px solid rgba(0,0,0,.125);
-  --modal-close: #ff00ea;
+  --modal-close: #a1ce3f;
   --modal-close-icon: #fff;
   --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   --btn-primary-txt: #fff;
-  --tags-txt: #fff;
-  --toggle-theme: #fff;
+  --tags-txt: #9aeadd;
+  --toggle-theme: #9aeadd;
 }
 
 
