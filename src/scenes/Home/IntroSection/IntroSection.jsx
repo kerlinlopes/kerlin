@@ -73,19 +73,6 @@ const IntroSection = () => {
               <FaLinkedinIn />
             </a>
           </li>
-
-          <li className={s.socialLink}>
-            <a
-              href="https://twitter.com/kerlinbaby"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaTwitterSquare />
-            </a>
-          </li>
-          <li className={s.socialLink}></li>
-
         </ul>
       </div>
     </section>
