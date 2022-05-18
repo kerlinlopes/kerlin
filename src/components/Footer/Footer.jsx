@@ -3,15 +3,12 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaTwitterSquare, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
-
-
   return (
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.copyright}>
           <h3>By Kerlin Lopes</h3>
         </div>
-
 
         <div className={s.body}>
           <ul className={s.socialIcons}>
@@ -34,18 +31,6 @@ const Footer = () => {
                 <FaLinkedinIn />
               </a>
             </li>
-
-            <li>
-              <a
-                href="https://twitter.com/kerlinbaby"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaTwitterSquare />
-              </a>
-            </li>
-
-
           </ul>
         </div>
       </div>
