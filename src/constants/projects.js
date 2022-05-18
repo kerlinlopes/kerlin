@@ -124,7 +124,7 @@ export const PROJECTS = [
     description:
       'A social media app where users can post any events happening in their lives. It includes a form where you can add the creator of the post, a title, a message, hashtags and include a photo as well! User is able to create a post, update it, read it and or delete it. ',
     image: {
-      src: '',
+      src: 'https://i.imgur.com/ai2GJTg.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
@@ -140,6 +140,26 @@ export const PROJECTS = [
       '#netlify',
       '#mongodb',
       '#express',
+    ],
+  },
+  {
+    id: '7',
+    title: 'Nail Business Page',
+    description:
+      'A nail business portfolio. It contains a logo, nav bar, about section, service section, contact section and footer section. This project was made just to show my skills in HTML and CSS. Very easy and simple web design page. ',
+    image: {
+      src: 'https://i.imgur.com/hgzWi0N.png',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: 'https://krazy-k-nails.netlify.app/',
+      repo: 'https://github.com/kerlinlopes/Nail-Tech-Mock-Portfolio',
+    },
+    technologies: [
+      '#HTML5',
+      '#css',
+      '#netlify',
     ],
   },
 ];
